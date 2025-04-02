@@ -36,52 +36,52 @@
   },
   "dependencies": {
     "@elastic/elasticsearch": "^8.17.1",
-    "_comment": "Cliente oficial de Elasticsearch para Node.js, usado para búsquedas e indexación de datos",
+    "description": "Cliente oficial de Elasticsearch para Node.js, usado para búsquedas e indexación de datos",
     
     "@kevindeveloper95/jobapp": "^0.0.1",
-    "_comment": "Paquete personalizado para la gestión de ofertas de trabajo (probablemente específico del proyecto)",
+    "description": "Paquete personalizado para la gestión de ofertas de trabajo (probablemente específico del proyecto)",
     
     "cloudinary": "^2.6.0",
-    "_comment": "SDK para Cloudinary, servicio de gestión y almacenamiento de imágenes/videos",
+    "description": "SDK para Cloudinary, servicio de gestión y almacenamiento de imágenes/videos",
     
     "express": "^4.19.2",
-    "_comment": "Framework web para Node.js, usado para construir APIs REST",
+    "description": "Framework web para Node.js, usado para construir APIs REST",
     
     "http-status-codes": "^2.3.0",
-    "_comment": "Constantes legibles para códigos HTTP (ejemplo: 404 -> NOT_FOUND)",
+    "description": "Constantes legibles para códigos HTTP (ejemplo: 404 -> NOT_FOUND)",
     
     "jsonwebtoken": "^9.0.2",
-    "_comment": "Implementación de JWT (JSON Web Tokens) para autenticación y autorización",
+    "description": "Implementación de JWT (JSON Web Tokens) para autenticación y autorización",
     
     "mongoose": "^8.13.1",
-    "_comment": "ODM para MongoDB, facilita la interacción con la base de datos",
+    "description": "ODM para MongoDB, facilita la interacción con la base de datos",
     
     "typescript": "^5.4.3",
-    "_comment": "Lenguaje que añade tipos estáticos a JavaScript (compila a JS)",
+    "description": "Lenguaje que añade tipos estáticos a JavaScript (compila a JS)",
     
     "winston": "^3.17.0",
-    "_comment": "Librería de logging flexible y configurable",
+    "description": "Librería de logging flexible y configurable",
     
     "winston-elasticsearch": "^0.18.0",
-    "_comment": "Transporte de Winston para enviar logs directamente a Elasticsearch"
+    "description": "Transporte de Winston para enviar logs directamente a Elasticsearch"
   },
   "devDependencies": {
     "@babel/cli": "^7.24.1",
-    "_comment": "Interfaz de línea de comandos para Babel (transpilación de código)",
+    "description": "Interfaz de línea de comandos para Babel (transpilación de código)",
     
     "@babel/preset-env": "^7.24.3",
-    "_comment": "Preset de Babel para transformar código moderno de JavaScript",
+    "description": "Preset de Babel para transformar código moderno de JavaScript",
     
     "@babel/preset-typescript": "^7.24.1",
-    "_comment": "Preset de Babel para soportar TypeScript",
+    "description": "Preset de Babel para soportar TypeScript",
     
     "@types/express": "^4.17.21",
-    "_comment": "Tipos TypeScript para Express (autocompletado y validación)",
+    "description": "Tipos TypeScript para Express (autocompletado y validación)",
     
     "@types/jsonwebtoken": "^9.0.6",
-    "_comment": "Tipos TypeScript para la librería jsonwebtoken",
+    "description": "Tipos TypeScript para la librería jsonwebtoken",
     
     "cross-env": "^7.0.3",
-    "_comment": "Herramienta para configurar variables de entorno en cualquier OS (Windows/Linux/macOS)"
+    "description": "Herramienta para configurar variables de entorno en cualquier OS (Windows/Linux/macOS)"
   }
 }
