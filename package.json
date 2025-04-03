@@ -36,9 +36,7 @@
   },
   "dependencies": {
     "@elastic/elasticsearch": "^8.17.1",
-    "@kevindeveloper95/jobapp-shared": "^0.0.1",
     "cloudinary": "^2.6.0",
-    "description": "Transporte de Winston para enviar logs directamente a Elasticsearch",
     "express": "^4.19.2",
     "http-status-codes": "^2.3.0",
     "jsonwebtoken": "^9.0.2",
@@ -53,7 +51,6 @@
     "@babel/preset-typescript": "^7.24.1",
     "@types/express": "^4.17.21",
     "@types/jsonwebtoken": "^9.0.6",
-    "cross-env": "^7.0.3",
-    "description": "Herramienta para configurar variables de entorno en cualquier OS (Windows/Linux/macOS)"
+    "cross-env": "^7.0.3"
   }
 }
