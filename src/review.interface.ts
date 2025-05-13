@@ -15,7 +15,7 @@ export interface IRatingTypes {
 
 export interface IReviewDocument {
   _id?: string;
-  gigId: string
+  gigId: string;
   reviewerId: string;
   sellerId: string;
   review: string;
