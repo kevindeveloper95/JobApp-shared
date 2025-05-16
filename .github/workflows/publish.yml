@@ -16,6 +16,7 @@ jobs:
         with:
           node-version: '20.x'
       - run: npm install
+      - run: chmod +x ./node_modules/.bin/cross-env
       - run: npm run build
       - run: |
           echo @kevindeveloper95:https://npm.pkg.github.com/ > build/.npmrc
