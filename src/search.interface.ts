@@ -22,7 +22,7 @@ export interface IQueryString {
 }
 
 export interface ITerm {
-  active: boolean;
+  [key: string]: any;
 }
 
 export interface IPaginateProps {
